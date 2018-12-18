@@ -1,16 +1,14 @@
-import React, {Component} from 'react';
-
-class Decrementor extends Component{
-    render(){        
+import React from 'react';
+/*STATELESS CLASS*/
+   const Decrementor = (props) => {        
         //const decrease = this.props.decrease;
-        const {decrease} = this.props;
-
+        const {decrease} = props;
         return(
            <button onClick={decrease} className='decrement'>
            - -
            </button>
         );
     }
-}
+
 
 export default Decrementor;
