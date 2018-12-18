@@ -7,7 +7,7 @@ class Decrementor extends Component{
 
         return(
            <button onClick={decrease} className='decrement'>
-           --
+           - -
            </button>
         );
     }

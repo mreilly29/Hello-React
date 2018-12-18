@@ -8,16 +8,8 @@ class Counter extends Component{
         super();
         this.state = {current:0};
     }
-    increment = () => {
-        this.setState(
-            {current : this.state.current + 1}
-            );
-    }
-    decrement = () => {
-        this.setState(
-            {current : this.state.current - 1}
-            );
-    }
+    increment = () => {this.setState({current : this.state.current + 1});}
+    decrement = () => {this.setState({current : this.state.current - 1});}
 
     render(){
         return(
